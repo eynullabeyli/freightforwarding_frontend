@@ -1,8 +1,0 @@
-Yeni şifrə təsdiqləmək üçün modal
-$(".password-update-board").fadeIn(100);
-
-Hesabı təsdiqlə modalı
-$(".security-guard-board").fadeIn(100);
-
-Sİfarişlərim bölməsi boş olduqda call ediləcək funksiya
-EmptyOrder(true);
