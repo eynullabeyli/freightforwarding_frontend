@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24">
+    <defs>
+        <style>
+            .cls-1{fill:#7a879f}
+        </style>
+    </defs>
+    <g id="balance-sheet" transform="translate(-2)">
+        <path id="Path_920" d="M19.5 24h-15A2.5 2.5 0 0 1 2 21.5v-19A2.5 2.5 0 0 1 4.5 0h15A2.5 2.5 0 0 1 22 2.5v19a2.5 2.5 0 0 1-2.5 2.5zM4.5 1A1.5 1.5 0 0 0 3 2.5v19A1.5 1.5 0 0 0 4.5 23h15a1.5 1.5 0 0 0 1.5-1.5v-19A1.5 1.5 0 0 0 19.5 1z" class="cls-1"/>
+        <path id="Path_921" d="M17.5 8h-11A1.5 1.5 0 0 1 5 6.5v-2A1.5 1.5 0 0 1 6.5 3h11A1.5 1.5 0 0 1 19 4.5v2A1.5 1.5 0 0 1 17.5 8zm-11-4a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-.5-.5z" class="cls-1"/>
+        <path id="Path_922" d="M8 14a.5.5 0 0 1-.5-.5v-3a.5.5 0 0 1 1 0v3a.5.5 0 0 1-.5.5z" class="cls-1"/>
+        <path id="Path_923" d="M9.5 12.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1z" class="cls-1"/>
+        <path id="Path_924" d="M17.5 12.5h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1z" class="cls-1"/>
+        <path id="Path_925" d="M17.5 17h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1z" class="cls-1"/>
+        <path id="Path_926" d="M17.5 20h-3a.5.5 0 0 1 0-1h3a.5.5 0 0 1 0 1z" class="cls-1"/>
+        <path id="Path_927" d="M6.5 20a.5.5 0 0 1-.354-.853l3-3a.5.5 0 0 1 .707.707l-3 3A.5.5 0 0 1 6.5 20z" class="cls-1"/>
+        <path id="Path_928" d="M9.5 20a.5.5 0 0 1-.354-.146l-3-3a.5.5 0 0 1 .707-.707l3 3A.5.5 0 0 1 9.5 20z" class="cls-1"/>
+    </g>
+</svg>

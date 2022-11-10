@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_Search" width="18" height="18" viewBox="0 0 18 18">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Search" transform="translate(2.084 2.084)">
+        <circle id="Ellipse_739" cx="6.741" cy="6.741" r="6.741" class="cls-1"/>
+        <path id="Line_181" d="M0 0l2.643 2.636" class="cls-1" transform="translate(11.43 11.78)"/>
+    </g>
+</svg>

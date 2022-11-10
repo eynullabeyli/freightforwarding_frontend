@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17.052" height="19.865" viewBox="0 0 17.052 19.865">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Iconly_Light_Paper_Plus" transform="translate(.75 .75)">
+        <g id="Paper_Plus">
+            <path id="Stroke_1" d="M10.486 0H3.834A3.82 3.82 0 0 0 0 3.729v10.849a3.713 3.713 0 0 0 3.834 3.775h7.988a3.769 3.769 0 0 0 3.73-3.775v-9.3z" class="cls-1" transform="translate(0 .012)"/>
+            <path id="Stroke_3" d="M0 0v2.909a2.575 2.575 0 0 0 2.569 2.575h2.754" class="cls-1" transform="translate(10.223)"/>
+            <path id="Stroke_5" d="M4.9.5H0" class="cls-1" transform="translate(5.143 9.664)"/>
+            <path id="Stroke_7" d="M.5 4.9V0" class="cls-1" transform="translate(7.093 7.714)"/>
+        </g>
+    </g>
+</svg>

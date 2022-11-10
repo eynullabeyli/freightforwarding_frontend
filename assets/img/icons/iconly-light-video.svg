@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_Video" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Video" transform="translate(2.55 5.25)">
+        <path id="Stroke_1" d="M13.266 10.37a3.272 3.272 0 0 1-3.53 3.4H3.519A3.265 3.265 0 0 1 0 10.37V3.41A3.275 3.275 0 0 1 3.53 0h6.206a3.28 3.28 0 0 1 3.53 3.41z" class="cls-1"/>
+        <path id="Stroke_3" d="M0 3.582L4.1.228a1 1 0 0 1 1.637.777v6.872a1 1 0 0 1-1.637.777L0 5.3" class="cls-1" transform="translate(13.266 2.444)"/>
+    </g>
+</svg>

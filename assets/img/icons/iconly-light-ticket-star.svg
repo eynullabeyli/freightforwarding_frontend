@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_Ticket_Star" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Ticket_Star" transform="translate(2 3)">
+        <path id="Stroke_1" d="M15.107 16.667a3.392 3.392 0 0 0 3.393-3.393v-2.7a2.239 2.239 0 1 1 0-4.478v-2.7A3.392 3.392 0 0 0 15.106 0H3.394A3.393 3.393 0 0 0 0 3.393v2.79a2.163 2.163 0 0 1 2.239 2.152A2.236 2.236 0 0 1 0 10.574v2.7a3.392 3.392 0 0 0 3.392 3.393z" class="cls-1" transform="translate(.75 .75)"/>
+        <path id="Stroke_3" d="M3.205 5.179l1.74.915a.223.223 0 0 0 .323-.234l-.333-1.939L6.344 2.55a.222.222 0 0 0-.123-.379l-1.946-.283L3.4.124a.222.222 0 0 0-.4 0l-.865 1.764-1.945.283a.222.222 0 0 0-.123.379l1.408 1.371-.333 1.939a.223.223 0 0 0 .323.234l1.74-.915z" class="cls-1" transform="translate(6.794 5.676)"/>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_2_User" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="_2_User" transform="translate(2 2.5)">
+        <path id="Stroke_1" d="M0 6.594A3.3 3.3 0 0 0 3.3 3.3 3.3 3.3 0 0 0 0 0" class="cls-1" transform="translate(14.02 1.819)"/>
+        <path id="Stroke_3" d="M0 0a10.9 10.9 0 0 1 1.617.233 2.664 2.664 0 0 1 1.945 1.113 1.568 1.568 0 0 1 0 1.345 2.683 2.683 0 0 1-1.945 1.118" class="cls-1" transform="translate(15.536 11.996)"/>
+        <path id="Stroke_5" d="M6.841 0c3.69 0 6.842.559 6.842 2.792S10.551 5.6 6.841 5.6C3.151 5.6 0 5.046 0 2.812S3.131 0 6.841 0z" class="cls-1" transform="translate(.75 12.706)"/>
+        <path id="Stroke_7" d="M4.384 8.769a4.385 4.385 0 1 1 4.385-4.385 4.369 4.369 0 0 1-4.385 4.385z" class="cls-1" transform="translate(3.207 .75)"/>
+    </g>
+</svg>

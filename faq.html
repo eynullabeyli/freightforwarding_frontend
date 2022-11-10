@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karqo - Sual Cavab</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="assets/vendor/hamburgers-master/dist/hamburgers.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/checkbox_radio_img_sprite.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header__">
+            <div class="mobile-header">
+                <div class="brand-logo">
+                    <a href="/">
+                        <img src="assets/img/logo-lg.png" alt="Karqo">
+                    </a>
+                </div>
+                <div class="menu">
+                    <button class="hamburger hamburger--squeeze hamburger-first-cat" type="button">
+                        <span class="hamburger-box">
+                          <span class="hamburger-inner"></span>
+                        </span>
+                      </button>
+                </div>
+                <div class="user-pref user-pref-active">
+                    <div class="cs">
+                        <div class="notification">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <g>
+                                        <path fill="#7a879f"
+                                        d="M7.983 19.967a3.619 3.619 0 0 1-1.714-.733 1.551 1.551 0 0 1-.7-1.173c0-.5.462-.734.889-.833a25.955 25.955 0 0 1 4.046 0c.427.1.889.329.889.833a1.553 1.553 0 0 1-.695 1.174 3.635 3.635 0 0 1-1.713.732A4 4 0 0 1 8.48 20a3.667 3.667 0 0 1-.497-.033zm-4.219-4.22a4.535 4.535 0 0 1-2.9-1.413A3.615 3.615 0 0 1 0 11.956a3.368 3.368 0 0 1 .731-2.31A3.8 3.8 0 0 0 1.794 6.8v-.43a5.625 5.625 0 0 1 1.283-3.858A7.073 7.073 0 0 1 8.456 0h.09a7.041 7.041 0 0 1 5.467 2.624 5.546 5.546 0 0 1 1.2 3.746v.43a3.889 3.889 0 0 0 1.062 2.849A3.364 3.364 0 0 1 17 11.956a3.614 3.614 0 0 1-.863 2.379 4.539 4.539 0 0 1-2.9 1.413c-1.571.133-3.144.247-4.737.247a41.689 41.689 0 0 1-4.736-.248z" transform="translate(3.5 2)"/>
+                                    </g>
+                                </svg>                            
+                            </button>
+                        </div>
+                        <div class="wallet">
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                    <g>
+                                        <path fill="#7a879f"
+                                        d="M14.515 18h-9.03a5.64 5.64 0 0 1-4.036-1.411A5.323 5.323 0 0 1 0 12.661V5.339a5.323 5.323 0 0 1 1.449-3.928A5.64 5.64 0 0 1 5.485 0h9.031a5.618 5.618 0 0 1 4.036 1.417A5.392 5.392 0 0 1 20 5.382h-4.231v.034a3.583 3.583 0 0 0-2.513 1.017 3.4 3.4 0 0 0-1.043 2.449 3.516 3.516 0 0 0 3.556 3.467H20v.311a5.323 5.323 0 0 1-1.449 3.928A5.64 5.64 0 0 1 14.515 18zM4.738 3.892a.757.757 0 0 0-.764.736.766.766 0 0 0 .764.754h5.645a.745.745 0 1 0 0-1.49zm14.515 6.967h-3.434a2.1 2.1 0 0 1-2.059-1.594 1.977 1.977 0 0 1 .433-1.652 2.089 2.089 0 0 1 1.576-.74h3.484A.739.739 0 0 1 20 7.6v2.531a.75.75 0 0 1-.747.727zM15.91 8.042a.757.757 0 0 0-.53.212.732.732 0 0 0-.225.524.766.766 0 0 0 .765.754h.329a.745.745 0 1 0 0-1.49h-.339z" transform="translate(2 3)"/>
+                                    </g>
+                                </svg>                            
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="navbar">
+                    <div class="block-ui">
+                        <div class="order-pref">
+                            <button>Sifariş ver</button>
+                            <button>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+                                    <g>
+                                        <path fill="#00458b"
+                                        d="M7.859 16.678l-.009-.207V10H1.528C.684 10 0 9.553 0 9c0-.506.574-.924 1.32-.991L1.528 8H7.85V1.529C7.85.685 8.3 0 8.85 0c.507 0 .925.575.991 1.322l.01.207V8h6.621C17.316 8 18 8.447 18 9c0 .507-.575.925-1.321.991l-.207.009H9.851v6.471c0 .844-.448 1.529-1 1.529-.507 0-.926-.575-.992-1.322z"/>
+                                    </g>
+                                </svg>
+                                <span>Bəyan et</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="list">
+                        <ul>
+                            <li><a href="about.html">Haqqımızda</a></li>
+                            <li><a href="tariffs.html">Tariflər</a></li>
+                            <li><a href="faq.html">Sual-Cavab</a></li>
+                            <li><a href="sc.html">Smart Customs</a></li>
+                        </ul>
+                    </div>
+                    <div class="block-ui">
+                        <div class="auth">
+                            <div class="log">
+                                <button>Daxil ol</button>
+                            </div>
+                            <div class="reg">
+                                <button><span>Qeydiyyat</span><div class="stroke__"></div></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--..//end of mobile-header-->
+            <div class="navbar__">
+                <div class="brand-logo">
+                    <a href="/">
+                        <img src="assets/img/logo-lg.png" alt="Karqo">
+                    </a>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li><a href="about.html">Haqqımızda</a></li>
+                        <li><a href="tariffs.html">Tariflər</a></li>
+                        <li><a href="faq.html">Sual-Cavab</a></li>
+                        <li><a href="sc.html">Smart Customs</a></li>
+                    </ul>
+                </div>
+                <div class="auth__">
+                    <div class="log">
+                        <button>Daxil Ol</button>
+                    </div>
+                    <div class="reg">
+                        <button>Qeydiyyat -></button>
+                    </div>
+                </div>
+            </div>
+            <!--..//end of navbar__-->
+        </div><!--../header__-->
+        <div class="content">
+            <div class="context">
+                <div class="pg-board-cs">
+                    <div class="header-txt">Sual-Cavab</div>
+                </div>
+            </div>
+            <!--..//context__-->
+            <div class="cl-c"></div>
+
+            <div class="section-faq faq-bg">
+                <div class="s-label">Ən çox verilən suallar</div>
+                <div class="is">
+                    <div class="sub">
+                        <ul>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Azərbaycan kartlarını qəbul etməyən saytlardan 
+                                        necə sifariş edə bilərəm ?
+                                    </div>
+                                </div>
+                                <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Aldığım məhsulu gseri qaytara bilərəm?
+                                    </div>
+                                </div>
+                                <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Ofisiniz harada yerləşir ?
+                                    </div>
+                                </div>
+                                    <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Mənim bağlamalarım birləşdirilə bilərmi?
+                                    </div>
+                                </div>
+                                    <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Sifarişim neçə günə çatdırılır ?
+                                    </div>
+                                </div>
+                                    <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                            <li>
+                                <div class="label-of">
+                                    <div class="txt">
+                                        Kartımdan nə qədər pul çıxacaq?
+                                    </div>
+                                </div>
+                                    <div class="icn"></div>
+                                <div class="ans-of">
+                                    text text text text text text 
+                                    text text text text text text 
+                                    text text text text text text 
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <div class="brd">
+                    <div class="col-one-cs">
+                        <div class="inside-cs">
+                            <div class="brand-logo">
+                                <a href="#">
+                                    <img src="assets/img/logo-lg.png" alt="Karqo">
+                                </a>
+                            </div>
+                            <div class="social-bar">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/social/fb.png" alt="Facebook">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/social/insta.png" alt="Instagram">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-two-cs">
+                        <div class="block-ui-fo">
+                            <div class="txt">Faydalı Keçidlər</div>
+                            <div class="bbc">
+                                <div class="rdr-list">
+                                    <ul>
+                                        <li>
+                                            <a href="pp.html">Gizlilik Şərtləri</a>
+                                        </li>
+                                        <li>
+                                            <a href="about.html">Haqqımızda</a>
+                                        </li>
+                                        <li>
+                                            <a href="faq.html">Şərtlər və Qaydalar</a>
+                                        </li>
+                                        <li>
+                                            <a href="contact.html">Əlaqə</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="qr-code">
+                                    <img src="assets/img/qr-code.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-three-cs">
+                        <div class="copyright">
+                            <div class="txt"><span>Bütün hüquqları qorunur.</span> <span>developed w/ ❤️ by EYNULLABAYLI</span></div>
+                        </div>
+                        <div class="block-rl">
+                            <div class="app">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/icons/apple.png">
+                                            <span>Apple Store</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <img src="assets/img/icons/android.png">
+                                            <span>Google Play</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="go-top">
+                                <span>Başa qayıt</span>
+                                <button><div class="arrow-up-icn"></div></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-cs-mdl login-board">
+            <div class="body">
+                <div class="board">
+                    <div class="sh-nav">
+                        <div class="bnv-ui">
+                            <div class="brand-logo">
+                                <img src="assets/img/logo-lg.png">
+                            </div>
+                            <div class="header">Daxil ol</div>
+                            <div class="txt">Şəxsi kabinetə giriş</div>
+                        </div>
+                        <div class="bnv-ui">
+                            <div class="close">
+                                <button data-page=".login-board">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.249" height="13.248" viewBox="0 0 13.249 13.248">
+                                        <g>
+                                            <g>
+                                                <path fill="#7a879f"
+                                                d="M8.083 6.64l4.953-4.954a.726.726 0 0 0 0-1.025L12.6.228a.726.726 0 0 0-1.025 0L6.624 5.181 1.671.228a.726.726 0 0 0-1.025 0L.212.662a.725.725 0 0 0 0 1.025L5.166 6.64.212 11.593a.727.727 0 0 0 0 1.025l.434.434a.726.726 0 0 0 1.025 0L6.624 8.1l4.953 4.953a.719.719 0 0 0 .512.212.719.719 0 0 0 .512-.212l.434-.434a.727.727 0 0 0 0-1.025z" transform="translate(0 -.016) translate(0 .016) translate(0 -.016)"/>
+                                            </g>
+                                        </g>
+                                    </svg>                                        
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-form-cs">
+                        <div class="input-field-cs">
+                            <span>E-mail</span>
+                            <input type="text" placeholder="Məs: mail@karqo.tld">
+                        </div>
+                        <div class="input-field-cs">
+                            <span>Şifrə</span>
+                            <input type="password" id="pswd__" placeholder="Şifrə">
+                            <div class="password-eye"></div>
+                        </div>
+                        <div class="forgot-password">
+                            <a href="#">Şifrəni unutmusunuz?</a>
+                        </div>
+                        <div class="input-submit">
+                            <button>DAXİL OL</button>
+                        </div>
+                    </div>
+                    <div class="register__clc">
+                        <span>Hesabınız yoxdur?</span>
+                        <a href="#">Qeydiyyatdan keç</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-cs-mdl register-board">
+            <div class="body">
+                <div class="board">
+                    <div class="sh-nav">
+                        <div class="bnv-ui">
+                            <div class="brand-logo">
+                                <img src="assets/img/logo-lg.png">
+                            </div>
+                            <div class="header">Qeydiyyat</div>
+                        </div>
+                        <div class="bnv-ui">
+                            <div class="close">
+                                <button data-page=".register-board">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.249" height="13.248" viewBox="0 0 13.249 13.248">
+                                        <g>
+                                            <g>
+                                                <path fill="#7a879f"
+                                                d="M8.083 6.64l4.953-4.954a.726.726 0 0 0 0-1.025L12.6.228a.726.726 0 0 0-1.025 0L6.624 5.181 1.671.228a.726.726 0 0 0-1.025 0L.212.662a.725.725 0 0 0 0 1.025L5.166 6.64.212 11.593a.727.727 0 0 0 0 1.025l.434.434a.726.726 0 0 0 1.025 0L6.624 8.1l4.953 4.953a.719.719 0 0 0 .512.212.719.719 0 0 0 .512-.212l.434-.434a.727.727 0 0 0 0-1.025z" transform="translate(0 -.016) translate(0 .016) translate(0 -.016)"/>
+                                            </g>
+                                        </g>
+                                    </svg>                                        
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slim-shady">
+                        <div class="selectors-cs">
+                            <ul>
+                                <li class="active">
+                                    <button data-page="1">Şəxsi məlumatlar</button>
+                                </li>
+                                <li>
+                                    <button data-page="2">Şifrəni təyin etmək</button>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="page-out active-page" data-id="1">
+                        <div class="input-form-cs">
+                            <div class="tw-input-box">
+                                <div class="input-field-cs">
+                                    <span>Ad</span>
+                                    <input type="text" placeholder="Ad">
+                                </div>
+                                <div class="input-field-cs">
+                                    <span>Soyad</span>
+                                    <input type="text" placeholder="Soyad">
+                                </div>
+                            </div>
+                            <div class="input-field-cs">
+                                <span>E-mail</span>
+                                <input type="email" placeholder="Məs: mail@karqo.tld">
+                            </div>
+                            <div class="input-field-cs">
+                                <span>Telefon nömrəsi</span>
+                                <input type="text" placeholder="Telefon nömrəsi">
+                            </div>
+                            <div class="tw-input-box">
+                                <div class="input-field-tw-cs">
+                                    <span>Seriya nömrəsi</span>
+                                    <div class="selects-cst">
+                                        <div class="selected-s" data-selected="1">
+                                            <div class="clc">
+                                                <span>AZE</span>
+                                                <div class="tri"></div>
+                                            </div>
+                                            <input type="text" placeholder="XXXXXXXX">
+                                        </div>
+                                        <div class="picker-s">
+                                            <ul>
+                                                <li class="active-btn-c">
+                                                    <button data-pnum="1">AZE</button>
+                                                </li>
+                                                <li>
+                                                    <button data-pnum="2">AA</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="input-field-tw-cs">
+                                    <span>Cinsi</span>
+                                    <div class="selects-cst">
+                                        <div class="selected-s" data-selected="1">
+                                            <div class="clc">
+                                                <span>Seçin</span>
+                                                <div class="tri"></div>
+                                            </div>
+                                        </div>
+                                        <div class="picker-s">
+                                            <ul>
+                                                <li class="active-btn-c">
+                                                    <button data-pnum="1">Kişi</button>
+                                                </li>
+                                                <li>
+                                                    <button data-pnum="2">Qadın</button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tw-input-box">
+                                <div class="input-field-cs">
+                                    <span>FIN</span>
+                                    <input type="text" placeholder="FIN">
+                                </div>
+                                <div class="input-field-cs">
+                                    <span>Doğum Tarixi</span>
+                                    <input type="date">
+                                </div>
+                            </div>
+                            <div class="input-field-cs">
+                                <span>Faktiki yaşayış yeri</span>
+                                <input type="text" placeholder="Ünvan">
+                            </div>
+                            <div class="reg-me">
+                                <button>NÖVBƏTİ</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page-out" data-id="2">
+                        <div class="input-form-cs">
+                            <div class="input-field-cs">
+                                <span>Şifrə</span>
+                                <input type="password" placeholder="Şifrə">
+                            </div>
+                            <div class="input-field-cs">
+                                <span>Şifrənin təkrarı</span>
+                                <input type="password" placeholder="Şifrənin təkrarı">
+                            </div>
+                            <div class="offers">
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <i class="icon-checkbox"></i>
+                                    <span>SMS bildirişləri aktiv et</span>
+                                </label>
+                                <label class="checkbox">
+                                    <input type="checkbox">
+                                    <i class="icon-checkbox"></i>
+                                    <a href="#">Şərtlər və qaydalarla </a><span>razıyam</span>
+                                </label>
+                            </div>
+                            <div class="reg-me">
+                                <button>TƏSDİQ ET</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-cs-mdl forgot-password-board">
+            <div class="body">
+                <div class="board">
+                    <div class="sh-nav">
+                        <div class="bnv-ui">
+                            <div class="brand-logo">
+                                <img src="assets/img/logo-lg.png">
+                            </div>
+                            <div class="header">Şifrə bərpası</div>
+                            <div class="txt">Şifrənizi bərpa etmə üçün qeydiyyat  email ünvanınızı qeyd edin.</div>
+                        </div>
+                        <div class="bnv-ui">
+                            <div class="close">
+                                <button data-page=".forgot-password-board">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.249" height="13.248" viewBox="0 0 13.249 13.248">
+                                        <g>
+                                            <g>
+                                                <path fill="#7a879f"
+                                                d="M8.083 6.64l4.953-4.954a.726.726 0 0 0 0-1.025L12.6.228a.726.726 0 0 0-1.025 0L6.624 5.181 1.671.228a.726.726 0 0 0-1.025 0L.212.662a.725.725 0 0 0 0 1.025L5.166 6.64.212 11.593a.727.727 0 0 0 0 1.025l.434.434a.726.726 0 0 0 1.025 0L6.624 8.1l4.953 4.953a.719.719 0 0 0 .512.212.719.719 0 0 0 .512-.212l.434-.434a.727.727 0 0 0 0-1.025z" transform="translate(0 -.016) translate(0 .016) translate(0 -.016)"/>
+                                            </g>
+                                        </g>
+                                    </svg>                                        
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-form-cs">
+                        <div class="input-field-cs">
+                            <span>E-mail</span>
+                            <input type="text" placeholder="Məs: mail@karqo.tld">
+                        </div>
+                        <div class="input-submit">
+                            <button>ŞİFRƏNİ GÖNDƏR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-cs-mdl password-update-board">
+            <div class="body">
+                <div class="board">
+                    <div class="sh-nav">
+                        <div class="bnv-ui">
+                            <div class="brand-logo">
+                                <img src="assets/img/logo-lg.png">
+                            </div>
+                            <div class="header">Şifrə bərpası</div>
+                            <div class="txt">Şifrənizi bərpa etmə üçün qeydiyyat  email ünvanınızı qeyd edin.</div>
+                        </div>
+                        <div class="bnv-ui">
+                            <div class="close">
+                                <button data-page=".password-update-board">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.249" height="13.248" viewBox="0 0 13.249 13.248">
+                                        <g>
+                                            <g>
+                                                <path fill="#7a879f"
+                                                d="M8.083 6.64l4.953-4.954a.726.726 0 0 0 0-1.025L12.6.228a.726.726 0 0 0-1.025 0L6.624 5.181 1.671.228a.726.726 0 0 0-1.025 0L.212.662a.725.725 0 0 0 0 1.025L5.166 6.64.212 11.593a.727.727 0 0 0 0 1.025l.434.434a.726.726 0 0 0 1.025 0L6.624 8.1l4.953 4.953a.719.719 0 0 0 .512.212.719.719 0 0 0 .512-.212l.434-.434a.727.727 0 0 0 0-1.025z" transform="translate(0 -.016) translate(0 .016) translate(0 -.016)"/>
+                                            </g>
+                                        </g>
+                                    </svg>                                        
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-form-cs">
+                        <div class="input-field-cs">
+                            <span>Yeni Şifrə</span>
+                            <input type="password" placeholder="Yeni Şifrə">
+                        </div>
+                        <div class="input-field-cs">
+                            <span>Yeni şifrəni təkrarla</span>
+                            <input type="password" placeholder="Yeni şifrəni təkrarla">
+                        </div>
+                        <div class="input-submit">
+                            <button>ŞİFRƏNİ GÖNDƏR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth-cs-mdl security-guard-board">
+            <div class="body">
+                <div class="board">
+                    <div class="sh-nav">
+                        <div class="bnv-ui">
+                            <div class="brand-logo">
+                                <img src="assets/img/logo-lg.png">
+                            </div>
+                            <div class="header">Hesabı təsdiqləyin</div>
+                            <div class="txt">Karqo LLC sürətli, etibarlı və güvənilən kargo (yük daşıma) şirkətidir.</div>
+                        </div>
+                        <div class="bnv-ui">
+                            <div class="close">
+                                <button data-page=".security-guard-board">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="13.249" height="13.248" viewBox="0 0 13.249 13.248">
+                                        <g>
+                                            <g>
+                                                <path fill="#7a879f"
+                                                d="M8.083 6.64l4.953-4.954a.726.726 0 0 0 0-1.025L12.6.228a.726.726 0 0 0-1.025 0L6.624 5.181 1.671.228a.726.726 0 0 0-1.025 0L.212.662a.725.725 0 0 0 0 1.025L5.166 6.64.212 11.593a.727.727 0 0 0 0 1.025l.434.434a.726.726 0 0 0 1.025 0L6.624 8.1l4.953 4.953a.719.719 0 0 0 .512.212.719.719 0 0 0 .512-.212l.434-.434a.727.727 0 0 0 0-1.025z" transform="translate(0 -.016) translate(0 .016) translate(0 -.016)"/>
+                                            </g>
+                                        </g>
+                                    </svg>                                        
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="input-form-cs">
+                        <div class="input-field-cs">
+                            <span>OTP</span>
+                            <input type="text" placeholder="Məs: 123456">
+                        </div>
+                        <div class="input-submit">
+                            <button>TƏSDİQLƏ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--..//wrapper-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/vendor/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

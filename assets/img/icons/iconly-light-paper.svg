@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_Paper" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Paper" transform="translate(3.5 2)">
+        <path id="Stroke_1" d="M10.487 0H3.834A3.82 3.82 0 0 0 0 3.729v10.713a3.827 3.827 0 0 0 3.834 3.911h7.989a3.887 3.887 0 0 0 3.729-3.911V5.276z" class="cls-1" transform="translate(.75 .762)"/>
+        <path id="Stroke_3" d="M0 0v2.909a2.574 2.574 0 0 0 2.568 2.575h2.755" class="cls-1" transform="translate(10.974 .75)"/>
+        <path id="Stroke_5" d="M5.4.5H0" class="cls-1" transform="translate(5.387 13.058)"/>
+        <path id="Stroke_7" d="M3.356.5H0" class="cls-1" transform="translate(5.386 8.106)"/>
+    </g>
+</svg>

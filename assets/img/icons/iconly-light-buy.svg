@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Iconly_Light_Buy" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#7986a1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="Buy" transform="translate(2 2.5)">
+        <path id="Stroke_1" d="M.764 0A.765.765 0 1 1 0 .765.766.766 0 0 1 .764 0z" class="cls-1" transform="translate(4.658 17.32)"/>
+        <path id="Stroke_3" d="M.765 0A.765.765 0 1 1 0 .765.766.766 0 0 1 .765 0z" class="cls-1" transform="translate(15.91 17.32)"/>
+        <path id="Stroke_5" d="M0 0l2.08.36.963 11.473a1.8 1.8 0 0 0 1.8 1.653h10.909a1.8 1.8 0 0 0 1.785-1.546l.949-6.558a1.341 1.341 0 0 0-1.327-1.533H2.414" class="cls-1" transform="translate(.75 .75)"/>
+        <path id="Stroke_7" d="M0 .5h2.773" class="cls-1" transform="translate(12.125 7.795)"/>
+    </g>
+</svg>
